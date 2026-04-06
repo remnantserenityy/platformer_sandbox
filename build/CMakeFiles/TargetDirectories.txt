@@ -1,0 +1,3 @@
+/home/serenityy/projects/platform_sandbox/build/CMakeFiles/platform_sandbox.dir
+/home/serenityy/projects/platform_sandbox/build/CMakeFiles/edit_cache.dir
+/home/serenityy/projects/platform_sandbox/build/CMakeFiles/rebuild_cache.dir

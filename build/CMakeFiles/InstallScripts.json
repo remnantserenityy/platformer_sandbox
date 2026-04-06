@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/serenityy/projects/platform_sandbox/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
