@@ -1,0 +1,67 @@
+BasedOnStyle: Google
+Language: Cpp
+Standard: c++20
+
+# Indentation
+IndentWidth: 8
+TabWidth: 8
+UseTab: Never
+
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: None
+AlignOperands: true
+AllowAllArgumentsOnNextLine: true
+PackConstructorInitializers: NextLine
+AllowAllParametersOfDeclarationOnNextLine: false
+
+
+# Braces
+BreakBeforeBraces: Attach
+SpaceBeforeCpp11BracedList: true
+
+# Short statements
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortLambdasOnASingleLine: Inline
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Empty
+
+# Line Length
+ColumnLimit: 80
+
+# Spaces
+SpaceAfterCStyleCast: false
+SpaceAfterLogicalNot: false
+SpaceAfterTemplateKeyword: true
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: true
+SpacesBeforeTrailingComments: 2
+SpaceInEmptyParentheses: false
+SpacesInAngles: Never
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+
+
+# Include Sorting
+SortIncludes: CaseSensitive
+IncludeBlocks: Regroup
+IncludeIsMainRegex: '([-_]test)?$'
+IncludeCategories:
+  - Regex: '^".*"'
+    Priority: 1
+  - Regex: '^<[a-z_]+>'
+    Priority: 4
+  - Regex: '^<.*>'
+    Priority: 3
+
+
+# Other
+Cpp11BracedListStyle: true
+KeepEmptyLinesAtTheStartOfBlocks: true
+MaxEmptyLinesToKeep: 5
+ReflowComments: false
+PointerAlignment: Left
+ReferenceAlignment: Left
